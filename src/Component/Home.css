@@ -1,0 +1,72 @@
+
+.container {
+    min-height: 100vh;
+    background-color: #001e4b;
+    color: whitesmoke;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .form-container {
+    background-color: grey;
+    max-width: fit-content;
+    margin: auto;
+    padding: 30px;
+    color: black;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    background-color:tomato;
+    color: white;
+    padding: 8px;
+    cursor:pointer;
+    opacity: 100%;
+  
+  }
+  
+  .data-table {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 8px;
+    border: 1px solid white;
+  }
+  
+  .edit-button,
+  .delete-button {
+    cursor: pointer;
+    border: 6px;
+    background: black;
+    margin-right: 3px;
+  }
+  
+  .edit-button {
+    color: yellow;
+  }
+  
+  .delete-button {
+    color: red;
+  }
+  
